@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.pth.tar
+*.pt.tar
+
+# Data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Logs
+*.log
+logs/
+runs/
+
+# Output files
+output*.mp4
+output*.avi
+*.jpg
+*.png
+!images/*.png
+!images/*.gif
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model checkpoints (exclude pretrained models from .gitignore if you want to include them)
+# Comment out the next line if you want to include pretrained models
+# pretrained/
+
+# Large data directories
+datasets/
+data/
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# CUDA
+*.cu
+*.cuh
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+

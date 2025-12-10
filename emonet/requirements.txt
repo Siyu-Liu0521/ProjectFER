@@ -1,0 +1,19 @@
+# EmoNet 项目依赖包
+# PyTorch - 深度学习框架
+torch>=1.2.0
+
+# OpenCV - 图像和视频处理
+opencv-python>=4.1.0
+
+# scikit-image - 图像处理
+scikit-image>=0.15.0
+
+# face-alignment - 人脸检测和对齐
+face-alignment
+
+# NumPy - 数值计算
+numpy
+
+# torchvision - 用于数据加载和转换（test.py 需要）
+torchvision
+
